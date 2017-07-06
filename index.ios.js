@@ -12,7 +12,7 @@ import {
   View
 } from 'react-native';
 
-export default class manager extends Component {
+export default class manager2 extends Component {
   render() {
     return (
       <View style={styles.container}>
@@ -50,4 +50,4 @@ const styles = StyleSheet.create({
   },
 });
 
-AppRegistry.registerComponent('manager', () => manager);
+AppRegistry.registerComponent('manager2', () => manager2);
