@@ -7,6 +7,8 @@ import reducers from './reducers';
 import LoginForm from './components/loginForm';
 import Router from './Router';
 
+console.ignoredYellowBox = [ 'Setting a timer' ];
+
 class App extends Component {
 	componentWillMount() {
 		const config = {
